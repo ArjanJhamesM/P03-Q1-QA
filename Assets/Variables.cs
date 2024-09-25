@@ -12,22 +12,18 @@ public class Variables : MonoBehaviour
     bool showStars = true;
     bool showSun_and_Moon = true;
     bool showFog = true;
+
+    private void ShowClouds() // One variable = one method
+    {
+        if (showClouds == true)
+        {
+            showClouds = false;
+        }
+        else
+        {
+            showClouds = true;
+        }
+    }
 }
-private void Statements()
-{
-    if showClouds == true)
-    {
-       showClouds == false;
-    }
-     else
-    {
-     showClouds == true;
-    }
-
-
-
-
-
-} 
    
 
