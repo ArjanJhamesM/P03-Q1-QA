@@ -1,8 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 
-public class NewBehaviourScript : MonoBehaviour
+public class Variables : MonoBehaviour
 {
     bool showClouds = true;
     bool showRain = true;
@@ -12,3 +13,21 @@ public class NewBehaviourScript : MonoBehaviour
     bool showSun_and_Moon = true;
     bool showFog = true;
 }
+private void Statements()
+{
+    if showClouds == true)
+    {
+       showClouds == false;
+    }
+     else
+    {
+     showClouds == true;
+    }
+
+
+
+
+
+} 
+   
+
