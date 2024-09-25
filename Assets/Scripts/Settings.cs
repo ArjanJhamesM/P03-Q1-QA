@@ -6,6 +6,7 @@ using TMPro;
 
 public class Variables : MonoBehaviour
 {
+    #region Textbox values
     [SerializeField] private TextMeshProUGUI cloudIndicator;
     [SerializeField] private TextMeshProUGUI rainIndicator;
     [SerializeField] private TextMeshProUGUI snowIndicator;
@@ -13,8 +14,9 @@ public class Variables : MonoBehaviour
     [SerializeField] private TextMeshProUGUI starsIndicator;
     [SerializeField] private TextMeshProUGUI sunAndMoonIndicator;
     [SerializeField] private TextMeshProUGUI fogIndicator;
+    #endregion
 
-
+    #region Option values
     bool showClouds = true;
     bool showRain = true;
     bool showSnow = true;
@@ -22,8 +24,9 @@ public class Variables : MonoBehaviour
     bool showStars = true;
     bool showSunAndMoon = true;
     bool showFog = true;
+    #endregion
 
-
+    #region Template for button
     public void ChangeValue(ref bool showSetting, ref TextMeshProUGUI settingIndicator)
     {
 
@@ -40,7 +43,9 @@ public class Variables : MonoBehaviour
             print(showSetting);
         }
     }
+    #endregion
 
+    #region Options
     public void ShowClouds()
     {
         ChangeValue(ref showClouds, ref cloudIndicator);
@@ -75,6 +80,7 @@ public class Variables : MonoBehaviour
     {
         ChangeValue(ref showFog, ref fogIndicator);
     }
+    #endregion
 }
-   
+
 
