@@ -780,13 +780,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 06faa5c096a863b4fb63b4c5df17f383, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cloudIndicator: {fileID: 389201074}
-  rainIndicator: {fileID: 284177052}
-  snowIndicator: {fileID: 1800318032}
-  skyIndicator: {fileID: 1116946402}
-  starsIndicator: {fileID: 893226536}
-  sunAndMoonIndicator: {fileID: 796069810}
-  fogIndicator: {fileID: 203046699}
+  cloudIndicator: {fileID: 0}
+  rainIndicator: {fileID: 0}
+  snowIndicator: {fileID: 0}
+  skyIndicator: {fileID: 0}
+  starsIndicator: {fileID: 0}
+  sunAndMoonIndicator: {fileID: 0}
+  fogIndicator: {fileID: 0}
 --- !u!4 &394858420
 Transform:
   m_ObjectHideFlags: 0
